@@ -1,0 +1,63 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+#mynav {
+    border-radius: 0;
+    background-color: crimson;
+    border: 2px solid black;
+}
+
+#brand {
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#nav-list {
+    background-color: rgb(170, 3, 3);
+    margin: 0 -15px 0;
+    border: 1px solid black;
+}
+
+#nav-list li {
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#nav-collapse {
+    border: 0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+
+.container .row {
+    margin: 0;
+    margin-bottom: 15px;
+    background-color: gray;
+    color: white;
+}
+
+#content {
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    height: 1000px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.6em;
+    font-weight: bold; 
+}
